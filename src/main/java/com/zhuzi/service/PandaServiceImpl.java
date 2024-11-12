@@ -71,7 +71,7 @@ public class PandaServiceImpl extends ServiceImpl<PandaMapper, Panda> implements
 
         // 对读取到的数据进行批量保存
         List<PandaReadModel> excelData = listener.getData();
-        batchSaveExcelData(excelData);
+//        batchSaveExcelData(excelData);
     }
 
     @Override
